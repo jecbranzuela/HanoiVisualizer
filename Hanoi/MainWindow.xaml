@@ -9,62 +9,62 @@
     <Grid x:Name="Grid1">
         <Rectangle Height="290" Width="15" HorizontalAlignment="Left" Fill="Black" VerticalAlignment="Top" Margin="129,10,0,0" IsEnabled="False"/>
         <DockPanel x:Name="FirstPeg" HorizontalAlignment="Left" Height="290" LastChildFill="False" Margin="10,10,0,0" VerticalAlignment="Top" Width="250">
-            <Grid  x:Name="blueRectGrid" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
+            <Grid  x:Name="disc12" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
                 <Rectangle RadiusX="10" RadiusY="10" x:Name="blueRectangle" Height="20" Fill="Blue" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom"/>
                 <TextBlock Text="12" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14" Foreground="White"/>
             </Grid>
 
-            <Grid x:Name="redRectGrid" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
+            <Grid x:Name="disc11" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
                 <Rectangle RadiusX="10" RadiusY="10" x:Name="redRectangle" Height="20" Fill="Red" VerticalAlignment="Top" Width="225" DockPanel.Dock="Bottom"/>
                 <TextBlock Text="11" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14" Foreground="White"/>
             </Grid>
 
-            <Grid x:Name="orangeRectGrid" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
+            <Grid x:Name="disc10" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
                 <Rectangle  RadiusX="10" RadiusY="10" x:Name="orangeRectangle" Height="20" Fill="Orange" VerticalAlignment="Top" Width="200" DockPanel.Dock="Bottom"/>
                 <TextBlock Text="10" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14" Foreground="White"/>
             </Grid>
 
-            <Grid x:Name="greenRectGrid" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
+            <Grid x:Name="disc9" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
                 <Rectangle  RadiusX="10" RadiusY="10" x:Name="greenRectangle" Height="20" Fill="Green" VerticalAlignment="Top" Width="175" DockPanel.Dock="Bottom"/>
                 <TextBlock Text="9" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14" Foreground="White"/>
             </Grid>
 
-            <Grid x:Name="darkgrayRectGrid" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
+            <Grid x:Name="disc8" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
                 <Rectangle  RadiusX="10" RadiusY="10" x:Name="darkgrayRectangle" Height="20" Fill="DarkGray" VerticalAlignment="Top" Width="150" DockPanel.Dock="Bottom"/>
                 <TextBlock Text="8" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14" Foreground="White"/>
             </Grid>
 
-            <Grid x:Name="indigoRectGrid" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
+            <Grid x:Name="disc7" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
                 <Rectangle  RadiusX="10" RadiusY="10" x:Name="indigoRectangle" Height="20" Fill="Indigo" VerticalAlignment="Top" Width="140" DockPanel.Dock="Bottom"/>
                 <TextBlock Text="7" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14" Foreground="White"/>
             </Grid>
 
-            <Grid x:Name="violetRectGrid" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
+            <Grid x:Name="disc6" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
                 <Rectangle RadiusX="10" RadiusY="10" x:Name="violetRectangle" Height="20" Fill="Violet" VerticalAlignment="Top" Width="125" DockPanel.Dock="Bottom"/>
                 <TextBlock Text="6" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14" Foreground="White"/>
             </Grid>
 
-            <Grid x:Name="magentaRectGrid" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
+            <Grid x:Name="disc5" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
                 <Rectangle  RadiusX="10" RadiusY="10" x:Name="magentaRectangle" Height="20" Fill="Magenta" VerticalAlignment="Top" Width="110" DockPanel.Dock="Bottom"/>
                 <TextBlock Text="5" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14" Foreground="White"/>
             </Grid>
 
-            <Grid x:Name="blueVioletRectGrid" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
+            <Grid x:Name="disc4" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
                 <Rectangle  RadiusX="10" RadiusY="10" x:Name="blueVioletRectangle" Height="20" Fill="BlueViolet"  VerticalAlignment="Top" Width="95" DockPanel.Dock="Bottom"/>
                 <TextBlock Text="4" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14" Foreground="White"/>
             </Grid>
 
-            <Grid x:Name="steelBlueRectGrid" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
+            <Grid x:Name="disc3" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
                 <Rectangle RadiusX="10" RadiusY="10" x:Name="steelBlueRectangle" Height="20" Fill="SteelBlue"  VerticalAlignment="Top" Width="80" DockPanel.Dock="Bottom"/>
                 <TextBlock Text="3" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14" Foreground="White"/>
             </Grid>
 
-            <Grid x:Name="firebrickRectGrid" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
+            <Grid x:Name="disc2" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
                 <Rectangle RadiusX="10" RadiusY="10" x:Name="firebrickRectangle" Height="20" Fill="Firebrick"  VerticalAlignment="Top" Width="65" DockPanel.Dock="Bottom"/>
                 <TextBlock Text="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14" Foreground="White"/>
             </Grid>
 
-            <Grid x:Name="paleVioletRectGrid" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
+            <Grid x:Name="disc1" Height="20" VerticalAlignment="Top" Width="250" DockPanel.Dock="Bottom">
                 <Rectangle RadiusX="10" RadiusY="10" x:Name="paleVioletRectangle" Height="20" Fill="PaleVioletRed"  VerticalAlignment="Top" Width="50" DockPanel.Dock="Bottom"/>
                 <TextBlock Text="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" FontSize="14" Foreground="White"/>
             </Grid>
@@ -82,21 +82,22 @@
         <Label Content="FIRST PEG" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,305,0,0" VerticalAlignment="Top" Width="250" FontWeight="Bold"/>
         <Label Content="MIDDLE PEG" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="274,305,0,0" VerticalAlignment="Top" Width="250" FontWeight="Bold" Height="26"/>
         <Label Content="END PEG" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="534,300,0,0" VerticalAlignment="Top" Width="250" FontWeight="Bold" Height="31"/>
-        <Label Content="Move Control" HorizontalAlignment="Left" Margin="222,402,0,0" VerticalAlignment="Top" Width="89" FontWeight="Bold"/>
+        <Label Content="Move Control" HorizontalAlignment="Left" Margin="222,361,0,0" VerticalAlignment="Top" Width="89" FontWeight="Bold"/>
         <Label Content="No. of Disks:" HorizontalAlignment="Left" Margin="41,434,0,0" VerticalAlignment="Top" Width="89" FontWeight="Bold"/>
-        <Label Content="Delay(ms):" HorizontalAlignment="Left" Margin="46,353,0,0" VerticalAlignment="Top" Width="72" FontWeight="Bold"/>
+        <Label Content="Delay(ms):" HorizontalAlignment="Left" Margin="41,379,0,0" VerticalAlignment="Top" Width="72" FontWeight="Bold"/>
         <Button IsEnabled="False" x:Name="BtnNext" Content="Next" HorizontalAlignment="Left" Margin="283,434,0,0" VerticalAlignment="Top" Width="75" Click="BtnNext_OnClick"/>
-        <Button IsEnabled="False" x:Name="BtnPrevious" Content="Previous" HorizontalAlignment="Left" Margin="185,434,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button IsEnabled="False" x:Name="BtnPrevious" Content="Previous" HorizontalAlignment="Left" Margin="185,434,0,0" VerticalAlignment="Top" Width="75" Click="BtnPrevious_OnClick"/>
         <Button x:Name="BtnIncreaseDisks"  Content="&#x25B2;" HorizontalAlignment="Left" Margin="64,459,0,0" VerticalAlignment="Top" Width="35" Height="25" Click="BtnIncreaseDisks_OnClick"/>
         <Button x:Name="BtnDecreaseDisks" Content="&#x25BC;" HorizontalAlignment="Left" Margin="64,489,0,0" VerticalAlignment="Top" Width="35" Height="25" Click="BtnDecreaseDisks_Onclick"/>
-        <Button x:Name="BtnSolve" Content="SOLVE!" HorizontalAlignment="Left" Margin="185,463,0,0" VerticalAlignment="Top" Width="173" Height="33" Click="BtnSolve_OnClick" FontWeight="Bold" FontSize="22"/>
-        <Label Content="Total Moves:" HorizontalAlignment="Left" Margin="210,353,0,0" VerticalAlignment="Top" Width="86" FontWeight="Bold"/>
-        <TextBlock x:Name="TbMoves" HorizontalAlignment="Left" Margin="296,358,0,0" TextWrapping="Wrap" Text="{Binding Path=movesCounter,Mode=TwoWay}" VerticalAlignment="Top" Width="72"/>
-        <Button x:Name="BtnPause" Content="Pause" HorizontalAlignment="Left" Margin="185,505,0,0" VerticalAlignment="Top" Width="75" Click="BtnPause_OnClick"/>
-        <Button x:Name="BtnResume" Content="Resume" HorizontalAlignment="Left" Margin="283,506,0,0" VerticalAlignment="Top" Width="75" Click="BtnResume_OnClick"/>
+        <Button x:Name="BtnSolve" Content="Automatic" HorizontalAlignment="Left" Margin="185,463,0,0" VerticalAlignment="Top" Width="173" Height="33" Click="BtnSolve_OnClick" FontWeight="Bold" FontSize="22"/>
+        <Label Content="Total Moves:" HorizontalAlignment="Left" Margin="43,353,0,0" VerticalAlignment="Top" Width="86" FontWeight="Bold"/>
+        <TextBlock x:Name="TbMoves" HorizontalAlignment="Left" Margin="129,358,0,0" TextWrapping="Wrap" Text="{Binding Path=movesCounter,Mode=TwoWay}" VerticalAlignment="Top" Width="72"/>
+        <Button x:Name="BtnPause" IsEnabled="False" Content="Pause" HorizontalAlignment="Left" Margin="185,505,0,0" VerticalAlignment="Top" Width="75" Click="BtnPause_OnClick"/>
+        <Button x:Name="BtnResume" IsEnabled="False" Content="Resume" HorizontalAlignment="Left" Margin="283,506,0,0" VerticalAlignment="Top" Width="75" Click="BtnResume_OnClick"/>
         <Button x:Name="BtnReset" Content="Reset" HorizontalAlignment="Left" Margin="222,535,0,0" VerticalAlignment="Top" Width="89" Click="BtnReset_OnClick"/>
-        <Slider Minimum="0" Maximum="2500" SmallChange="1" LargeChange="50" HorizontalAlignment="Left" Margin="44,379,0,0" VerticalAlignment="Top" Width="141" Value="{Binding Path=delay,Mode=TwoWay}"/>
-        <TextBlock x:Name="TbSpeed" HorizontalAlignment="Left" Margin="118,358,0,0" TextWrapping="Wrap" Text="{Binding Path=delay,Mode=TwoWay}" VerticalAlignment="Top" Width="54"/>
+        <Slider Minimum="0" Maximum="2500" SmallChange="1" LargeChange="50" HorizontalAlignment="Left" Margin="39,405,0,0" VerticalAlignment="Top" Width="141" Value="{Binding Path=delay,Mode=TwoWay}"/>
+        <TextBlock x:Name="TbSpeed" HorizontalAlignment="Left" Margin="118,384,0,0" TextWrapping="Wrap" Text="{Binding Path=delay,Mode=TwoWay}" VerticalAlignment="Top" Width="54"/>
+        <Button x:Name="btnManual" FontWeight="Bold" FontSize="22" Content="Manual" HorizontalAlignment="Left" Click="BtnManual_OnClick" Margin="185,390,0,0" VerticalAlignment="Top" Width="173" Height="33"/>
 
     </Grid>
 </Window>
